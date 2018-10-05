@@ -52,8 +52,8 @@
                             <goal>tag</goal>
                         </goals>
                         <configuration>
-                            <image>ORGANIZATION_NAME/alma-server:${project.version}</image>
-                            <newName>hub.docker.com/ORGANIZATION_NAME/alma-server:${project.version}</newName>
+                            <image>lowercaseorganizationname/alma-server:${project.version}</image>
+                            <newName>hub.docker.com/lowercaseorganizationname/alma-server:${project.version}</newName>
                         </configuration>
                     </execution>
                 </executions>
